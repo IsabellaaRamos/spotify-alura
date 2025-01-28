@@ -17,7 +17,13 @@ body {
     padding: 16px 0 0 16px;
 }
 
-.logo img {
+.sidebar__navigation .logo {
+    background-color: #121212;
+    display: flex;
+    border: 8px;
+    padding: 16px 0 0 16px;
+}
+.sidebar__navigation .logo img {
     width: 80px;
-    
+
 }
