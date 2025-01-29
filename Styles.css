@@ -215,3 +215,11 @@ body{
     flex-shrink: 0;
 }
 
+.footer button:hover {
+    background-color: #c5bebe;
+}
+
+#artist {
+    display: none;
+}
+
