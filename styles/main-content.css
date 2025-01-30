@@ -4,9 +4,9 @@
     height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
-    /* background-image: url(../assets/ImgFundo/imgMsc.jpg); */
-    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.774)),
-                url('../assets/ImgFundo/imgMsc.jpg');
+    background-image: url(../assets/ImgFundo/imgMsc.jpg); 
+   background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.774)),
+                url('../assets/ImgFundo/imgMsc.jpg'); 
 
 }
 
