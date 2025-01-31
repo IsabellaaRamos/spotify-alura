@@ -6,7 +6,14 @@ function requestApi(searchTerm) {
     const url = "htpp://localhost:3000/artists?name_like=${searchTerm}";
     fetch(url)
     .then((response) => response.json())
-    .then((result) => displayResults(result));
+    .then((result) => displayResults(result))
+}
+
+function displayResults() {
+    resultPlaylists.classList.add('hidden');
+    const artistsName = document.getElementById('artists-name');
+    const artistsImage = document.getElementById('artists-image');
+
 }
 
 
