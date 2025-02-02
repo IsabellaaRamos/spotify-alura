@@ -16,6 +16,12 @@ function displayResults() {
 
 }
 
+result.forEach(element => {
+    artistsName.innerText = element.name
+    artistsImage.src = element.image;
+});
+
+resultPlaylists.classList.remove('hidden');
 
 
 document.addEventListener('input',function() {
