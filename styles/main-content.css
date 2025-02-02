@@ -122,7 +122,7 @@
   }
   .fa-play:hover {
     cursor: pointer;
-    background-color: #863274;
+   
   }
   
   /* SCROLL */
@@ -152,7 +152,7 @@
     /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
     display: grid;
     gap: 16px;
-    grid-gap: 32px;
+    grid-gap: 36px;
     margin: 0 auto;
   }
   
@@ -163,13 +163,23 @@
     overflow: hidden;
     border-radius: 8px;
   }
+ .cards:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    background-color: #ffffff1e;
+    color: black;
+  }
   
   .cards span {
-    padding: 16px;
+    padding: 20px;
     position: absolute;
     color: #fff;
     font-size: 24px;
     font-weight: 700;
+  }
+
+   .cards .span:hover {
+    background-color: black;
   }
   
   /* COLOR CARDS */
