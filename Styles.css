@@ -132,7 +132,7 @@ body, html{
 .section-play_content .section-play_buttom {
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: #6d2a61;
     color: #000;
     border-radius: 20px;
     font-size: 12px;
@@ -181,7 +181,7 @@ body, html{
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #ae2896, #509bf5);
+    background: linear-gradient(to right, #6d2a61, #2b0d2c);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
@@ -207,7 +207,7 @@ body, html{
 } 
 
 .footer button {
-    background-color: #ffffff;
+    background-color: #a593a5;
     color: #000000;
     font-size: 16px;
     font-weight: bold;
