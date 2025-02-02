@@ -17,6 +17,7 @@ function displayResults() {
 }
 
 
+
 document.addEventListener('input',function() {
     const  searchTerm = searchInput.value.toLowerCase();
     if (searchterm === '') {
