@@ -18,3 +18,8 @@ React.js
 <br>
 📌 LinkedIn: https://www.linkedin.com/in/isabella-ramos-/ <br>
 📌 GitHub: https://github.com/IsabellaaRamos
+<br>
+<br> 
+<h1>📍Link do Projeto</h1>
+<br>
+https://spotify-projeto.netlify.app/
